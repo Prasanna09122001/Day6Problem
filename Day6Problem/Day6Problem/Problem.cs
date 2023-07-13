@@ -51,5 +51,18 @@ namespace Day6Problem
             else
                 Console.WriteLine("It is not a Perfect number");
         }
+        public static void Reverse()
+        {
+            Console.WriteLine("Enter the number to be revesed");
+            int a = Convert.ToInt32(Console.ReadLine()),b,c=0;
+            while(a!=0)
+            {
+                b = a % 10;
+                c = c*10+b;
+                a = a / 10;
+            }
+            Console.WriteLine(c);
+
+        }
     }
 }
