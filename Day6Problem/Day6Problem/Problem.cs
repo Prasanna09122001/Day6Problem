@@ -21,6 +21,7 @@ namespace Day6Problem
         }
         public static void prime()
         {
+            Console.WriteLine("Enter the number checked to be prime");
             int a = Convert.ToInt32(Console.ReadLine()),b=0;
             for (int i = 1; i < a; i++)
             {
@@ -35,6 +36,20 @@ namespace Day6Problem
             {
                 Console.WriteLine("It is Not a Prime Number");
             }
+        }
+        public static void perfect()
+        {
+            Console.WriteLine("Enter the number checked to be perfect");
+            int a = Convert.ToInt32(Console.ReadLine()),b=0;
+            for(int i=1;i<a;i++)
+            {
+                if (a % i == 0)
+                    b += i;
+            }
+            if (b == a)
+                Console.WriteLine("It is a perfect number");
+            else
+                Console.WriteLine("It is not a Perfect number");
         }
     }
 }

@@ -7,7 +7,8 @@ namespace Day6Problem
         {
             Console.WriteLine("Solution For The Day 6 Problem");
             //Problem.Fib();
-            Problem.prime();
+            //Problem.prime();
+            Problem.perfect();
         }
     }
 }
