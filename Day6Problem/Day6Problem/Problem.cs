@@ -62,7 +62,27 @@ namespace Day6Problem
                 a = a / 10;
             }
             Console.WriteLine(c);
-
+        }
+        public static void Temperature()
+        {
+            Console.WriteLine("Enter the Conversion Needed \n1. F to c\n 2. C to F");
+            int input = Convert.ToInt32(Console.ReadLine());
+            switch(input)
+            {
+                case 1:
+                    Console.WriteLine("Enter the Temperature to be changed");
+                    int a = Convert.ToInt32(Console.ReadLine());
+                    double b = (a - 32) * 0.5556;
+                    Console.WriteLine(b);
+                    break;
+                case 2:
+                    Console.WriteLine("Enter the Temperature to be changed");
+                    a = Convert.ToInt32(Console.ReadLine());
+                    b = (a * 1.8) + 32;
+                    Console.WriteLine(b);
+                    break;
+            }
+            
         }
     }
 }

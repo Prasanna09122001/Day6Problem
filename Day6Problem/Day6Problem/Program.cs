@@ -9,7 +9,8 @@ namespace Day6Problem
             //Problem.Fib();
             //Problem.prime();
             //Problem.perfect();
-            Problem.Reverse();
+            //Problem.Reverse();
+            Problem.Temperature();
         }
     }
 }
