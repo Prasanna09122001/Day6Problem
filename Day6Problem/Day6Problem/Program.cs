@@ -10,7 +10,8 @@ namespace Day6Problem
             //Problem.prime();
             //Problem.perfect();
             //Problem.Reverse();
-            Problem.Temperature();
+            //Problem.Temperature();
+            StopWatch.Watch();
         }
     }
 }
