@@ -71,15 +71,15 @@ namespace Day6Problem
             {
                 case 1:
                     Console.WriteLine("Enter the Temperature to be changed");
-                    int a = Convert.ToInt32(Console.ReadLine());
+                    double a = Convert.ToDouble(Console.ReadLine());
                     double b = (a - 32) * 0.5556;
-                    Console.WriteLine(b);
+                    Console.WriteLine(b+"C");
                     break;
                 case 2:
                     Console.WriteLine("Enter the Temperature to be changed");
                     a = Convert.ToInt32(Console.ReadLine());
                     b = (a * 1.8) + 32;
-                    Console.WriteLine(b);
+                    Console.WriteLine(b+"F");
                     break;
             }
             
