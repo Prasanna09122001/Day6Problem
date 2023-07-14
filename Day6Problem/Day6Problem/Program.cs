@@ -12,7 +12,8 @@ namespace Day6Problem
             //Problem.Reverse();
             //Problem.Temperature();
             //StopWatch.Watch();
-            Money.money();
+            //Money.money();
+            Money.DateDay();
         }
     }
 }

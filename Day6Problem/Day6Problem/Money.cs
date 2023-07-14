@@ -4,6 +4,7 @@ namespace Day6Problem
 {
     class Money
     {
+        
         public static void money()
         {
             Console.WriteLine("enter the Amount to be Returned");
@@ -34,6 +35,17 @@ namespace Day6Problem
             Console.WriteLine("The number of 2 Rupees coin = "+i);
             Console.WriteLine("The number of 1 Rupee coin = "+a);
             Console.WriteLine("The Total Number of the Notes is " + (a + b + c + d + e + f + g + h + i));
+        }
+        public static void DateDay()
+        {
+            Console.Write("Enter the Date");
+            int date = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter the Day");
+            int month = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter the Year");
+            int year = Convert.ToInt32(Console.ReadLine());
+            DateTime day= new DateTime(year,month,date);
+            Console.WriteLine(day.DayOfWeek);
         }
     }
 }
